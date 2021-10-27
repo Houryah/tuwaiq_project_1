@@ -1,34 +1,18 @@
 $(document).ready(function () {
-    let saudi = sessionStorage.getItem('name');
-    $('#' + saudi).removeClass('hidden');
-    // $("#neom")
-  })
+  let saudi = sessionStorage.getItem('name');
+  $('#' + saudi).removeClass('hidden');
+  // $("#neom")
+})
 
 
 
-
-  
-  
-$('#bttn').click(function(){
-  if ($('.btn').attr('clicked')=="true") {
-$('#bttn').css("background-color" ,"grey");
-$('#bttn').attr('clicked',false)
-  }else{
-$('#bttn').css("background-color" ,"yellow");
-$('#bttn').attr('clicked',true)
+$('.btn').click(function () {
+  if ($('.btn').attr('clicked') == "true") {
+    $('.btn').css("background-color", "grey");
+    $('.btn').attr('clicked', false)
+  } else {
+    $('.btn').css("background-color", "yellow");
+    $('.btn').attr('clicked', true)
 
   }
 });
-
-
-
-  
-
-
-
-
-
-
-
-
-

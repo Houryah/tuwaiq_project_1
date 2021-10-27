@@ -1,16 +1,16 @@
-.hidden{
+.hidden {
     display: none;
 }
 
 
-.navbar-brand{
-font-family:monospace;
-font-size: 40px;
+.navbar-brand {
+    font-family: monospace;
+    font-size: 40px;
 
 }
 
-#logo{
+#logo {
     height: 50px;
     width: 150px;
- 
- }
+
+}
