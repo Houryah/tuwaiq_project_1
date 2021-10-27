@@ -20,12 +20,44 @@ body {
 
 
 
+.navbar-brand {
+  font-family: monospace;
+  font-size: 40px;
 
-
-
-
-
-.contact-text{
-  width: 17rem;
-  height: 40rem;
 }
+
+
+.card-img-top {
+  width: 19rem;
+  height: 18rem;
+
+
+}
+
+.card-text {
+  width: 17rem;
+  height: 12rem;
+  margin-bottom: 0px;
+}
+
+
+.card-body {
+  
+
+}
+
+
+
+.contact-text {
+  width: 19rem;
+  height: 35rem;
+}
+
+
+
+#logo{
+  height: 50px;
+  width: 150px;
+
+}
+
