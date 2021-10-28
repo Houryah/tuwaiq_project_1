@@ -10,7 +10,7 @@ $('.btn').click(function () {
   if ($('.btn').attr('clicked') == "true") {
     $('.btn').css("background-color", "grey");
     $('.btn').attr('clicked', false)
-  } else {
+  } else {  
     $('.btn').css("background-color", "yellow");
     $('.btn').attr('clicked', true)
 
