@@ -18,6 +18,13 @@ body {
   height: 18rem;
 }
 
+/* tryied to make the shield image the same size as the other images */
+
+#diri{
+height: 20rem;
+
+}
+
 
 .contact-text {
   width: 19rem;
@@ -39,4 +46,11 @@ body {
 .btn {
   display: block;
   margin: auto;
+}
+
+#pro{
+
+
+font-size: 20px; 
+font-family:'Times New Roman', Times, serif;
 }
